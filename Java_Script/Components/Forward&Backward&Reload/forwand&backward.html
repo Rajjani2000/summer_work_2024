@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fwd()">Forward</button>
+    <button onclick="bwd()"> Back</button>
+    <button onclick="reload()">Reload</button>
+    
+</body>
+        <script>
+                function fwd()
+                {
+                    window.history.forward();
+                }
+                function bwd()
+                {
+                    window.history.back();
+                }
+                function reload()
+                {
+                    window.location.reload();
+                }
+
+        </script>
+
+</html>
