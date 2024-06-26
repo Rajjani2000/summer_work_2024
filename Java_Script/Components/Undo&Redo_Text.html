@@ -1,0 +1,49 @@
+<!-- elaboration
+
+This is the Simple exmaple of developing undersatnding  about the DOM
+here with help of  DOM method document.get elememnt by id , we change the text
+
+DOM is widely use to make website interactive !!
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+       <p id ="p1">Hello</p>
+       <button onclick="change()">Chnege Text</button>
+       <button onclick="undo()">undo </button>
+
+    </div>
+    <script>
+        var set_text = document.getElementById("p1").textContent;
+            // check test...
+        console.log(set_text);
+
+
+        function change()
+        {
+            document.getElementById("p1").textContent = "New text";
+        }
+
+        function undo()
+        {
+            document.getElementById("p1").textContent = set_text;
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
