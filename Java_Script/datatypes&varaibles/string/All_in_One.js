@@ -83,3 +83,17 @@ function string_includes(str,sub_st)
 }
 
 console.log(string_includes("I am boy","boy"));
+
+function trim_space(str)
+{
+    return str.trim();
+}
+console.log(trim_space(" RAJJANI"));
+
+
+
+function repe(str,times)
+{
+    return str.repeat(times);
+}
+console.log(repe("RAJ",3));
