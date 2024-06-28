@@ -36,3 +36,50 @@ let passing_value = access_element("RAJ");
 
 console.log("First Element is "+" "+passing_value.first_element);
 console.log("Last Element is"+" "+passing_value.last_element);
+
+function substring_extract(str, start, end)
+{
+    return str.substring(start,end);
+    
+}
+console.log(substring_extract("RAJ JANI",2,5));
+
+
+function replace_string(sentance)
+{
+ 
+
+    let new_sentance = sentance.replace(/RAJ/g,"JANI")
+    console.log(new_sentance);
+
+
+}
+replace_string("I AM RAJ");
+
+
+function split_string(split_str)
+{
+    let new_splited = split_str.split(" ");
+    console.log(new_splited);
+
+}
+split_string("I AM RAJ");   
+
+
+function string_to_case(st_case)
+{
+    let upper_case = st_case.toUpperCase();
+    let lower_case = st_case.toLowerCase();
+    console.log(upper_case,lower_case);
+  
+
+}
+string_to_case("RaJ")
+
+function string_includes(str,sub_st)
+{
+    return str.includes(sub_st);
+   
+}
+
+console.log(string_includes("I am boy","boy"));
