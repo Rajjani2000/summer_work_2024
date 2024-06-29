@@ -8,6 +8,7 @@ const {
   access_element,
   string_length,
   concatenation,
+  greet,
 } = require("./all_Sting");
 
 // Concatenation Testing......
@@ -54,3 +55,8 @@ test("Split Testing Succes", () => {
 test("Replace Testing Suceess", () => {
   expect(replace_string("I AM RAJ", "AM", "WAS")).toBe("I WAS RAJ");
 });
+
+//pass testing
+test("Passing Testing Successs",() => {
+    expect(greet("RAJ")).toBe("Hello, RAJ!");
+})

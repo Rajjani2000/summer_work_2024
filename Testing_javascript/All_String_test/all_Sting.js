@@ -86,6 +86,14 @@ console.log(repe("RAJ", 3));
 // Output
 // RAJRAJRAJ
 
+//function 11
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+// let greetingMessage = greet('RAJ');
+// console.log(greetingMessage); // Output: Hello, Alice!
+
 module.exports = {
   repe,
   trim_space,
@@ -96,5 +104,6 @@ module.exports = {
   access_element,
   string_length,
   concatenation,
+  greet,
 
 };
