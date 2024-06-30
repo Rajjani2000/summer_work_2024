@@ -12,3 +12,10 @@ var anAdjective = "Easy";
 var Sentance = "Learning Javascipt";
 Sentance += anAdjective;
 console.log(Sentance);
+
+
+var n ="Raj";
+var c = n[0];
+console.log(c);
+console.log(n[1]);
+console.log(n[2]);
