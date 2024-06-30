@@ -19,3 +19,7 @@ var c = n[0];
 console.log(c);
 console.log(n[1]);
 console.log(n[2]);
+
+var j = c.replace("K")
+var hi = n.trim(1);
+console.log(hi);
