@@ -5,3 +5,4 @@ for(const nums of num)
 {
     console.log(nums);
 }
+
