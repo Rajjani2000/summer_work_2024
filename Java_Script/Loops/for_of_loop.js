@@ -6,3 +6,5 @@ for(const nums of num)
     console.log(nums);
 }
 
+// let a = Infinity
+// console.log(typeof a);
